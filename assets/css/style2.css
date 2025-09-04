@@ -77,3 +77,24 @@ h4 {
   }
 }
 
+
+
+.section.story {
+  text-align: center;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.founder {
+  margin-top: 20px;
+}
+
+.founder img.testimonial-img {
+  width: 200px;       /* Adjust size */
+  height: auto;
+  border-radius: 50%; /* Circle photo */
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+

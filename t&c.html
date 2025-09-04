@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!-- saved from url=(0018)https://olute.org/ -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/img/logo.png" rel="icon" />
+
+    <title>Olute Football Club - Developing Future Stars</title>
+    <meta
+      name="description"
+      content="Olute Football Club provides professional football training for youth and adults. Join our academy to develop your skills with certified coaches."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="" />
+    <style>
+    /* body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    } */
+
+    .container1 {
+      max-width: 900px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 30px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .accordion-header {
+      background-color: #e7f0ff;
+      color: #003366;
+      padding: 15px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .accordion-header:hover {
+      background-color: #d0e5ff;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 20px;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .accordion-content.show {
+      display: block;
+    }
+
+    /* footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 30px;
+      color: #666;
+    } */
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/bootstrap-icons/bootstrap-icons.css" />
+
+    <!-- Custom CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/responsive.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://olute.org/assets/img/favicon.ico" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- https://olute-football-association.netlify.app -->
+    <!-- Vendor CSS Files -->
+    <!-- <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" /> -->
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init("U_eIUFawiRZhFEgqf"); // Replace with your EmailJS public key
+  })();
+</script>
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <!-- <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top scrolled">
+      <div class="container">
+        <a class="navbar-brand" href="https://olute.org/#">
+          <img src="./assets/img/logo.png" alt="Olute FC" height="50" />
+        </a>
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><span class="menu-toggle"></span></span>
+        </button>
+        <div class="nav-links active " id="navbarNav navLinks" onclick="menuToggle()">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#programs"
+                >Programs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register"
+                >Register</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://olute.org/contact.php"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <nav
+      id="home"
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top scrolled"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="https://olute.org/#">
+          <img src="./assets/img/logo.png" alt="Olute FC" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-links active" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./Olute Football Club - Developing Future Stars.html#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+<a
+                class="nav-link"
+                href="./Olute Football Club - Developing Future Stars.html#programs"
+                >About</a>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./Olute Football Club - Developing Future Stars.html#programs"
+                >Programs</a>
+            </li>
+            <li class="nav-item">
+             <a
+                class="nav-link"
+                href="./Olute Football Club - Developing Future Stars.html#programs"
+                >News</a>
+            </li>
+            <li class="nav-item">
+                <a
+                class="nav-link"
+                href="./Olute Football Club - Developing Future Stars.html#programs"
+                >Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://olute.org/contact.php"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+
+      <section class="hero-section position-relative">
+        <div class="slideshow-container">
+          <div class="slide slide1"></div>
+          <div class="slide slide2"></div>
+          <div class="slide slide3"></div>
+        </div>
+
+        <div class="js-sliding-banner">
+          <div class="sliding-track" id="slidingTrack">
+            Text will be added by JavaScript
+          </div>
+        </div>
+
+        <div class="container position-relative">
+          <div class="row align-items-center min-vh-75 py-5">
+            <div class="col-lg-6 text-white">
+              <h1 id="heroHeadline" class="display-4 fw-bold mb-4">
+                DEVELOPING FUTURE FOOTBALL STARS
+              </h1>
+
+              <p class="lead mb-4">
+                Olute Football Club is committed to nurturing young talents and
+                promoting football excellence in our community.
+              </p>
+              <div class="d-flex gap-3">
+                <a href="#registrationForm" class="btn btn-primary btn-lg px-4"
+                  >Join Our Academy</a
+                >
+                <a href="#about" class="btn btn-outline-light btn-lg px-4"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+      </section>
+<section>
+    
+      <div class="container1">
+    <h1>Olute Football Association - Terms and Conditions</h1>
+
+    <div class="accordion-section">
+      <div class="accordion-header">1. Membership and Registration</div>
+      <div class="accordion-content">
+        <p>All participants must complete a registration form truthfully and accurately. Parental/guardian consent is required for participants under 18 years old. Olute FA reserves the right to accept or reject any application without obligation to provide a reason.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">2. Code of Conduct</div>
+      <div class="accordion-content">
+        <p>Respect all players, staff, and officials. No abusive behavior or unsportsmanlike conduct will be tolerated. Players must attend sessions on time and in proper kit.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">3. Fees and Payments</div>
+      <div class="accordion-content">
+        <p>All fees must be paid before participating. Fees are non-refundable unless specified. Late payments may result in exclusion from training or matches.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">4. Health and Safety</div>
+      <div class="accordion-content">
+        <p>Disclose any medical conditions before participating. Olute FA staff may administer first aid in emergencies. Participation is at your own risk.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">5. Media and Photography</div>
+      <div class="accordion-content">
+        <p>By registering, you consent to the use of photos/videos for promotional purposes. Opt out in writing if you do not wish to be included.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">6. Liability and Insurance</div>
+      <div class="accordion-content">
+        <p>Olute FA is not liable for injuries or personal loss during activities. Personal accident insurance is recommended.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">7. Program Changes and Cancellations</div>
+      <div class="accordion-content">
+        <p>We may reschedule or cancel sessions due to weather or other reasons. Participants will be notified in advance where possible.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">8. Data Protection</div>
+      <div class="accordion-content">
+        <p>We collect only necessary data, securely store it, and never share it without your consent except when required by law.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">9. Disciplinary Action</div>
+      <div class="accordion-content">
+        <p>Violating these terms may lead to suspension or dismissal from Olute FA programs. All disciplinary decisions are final.</p>
+      </div>
+    </div>
+
+    <div class="accordion-section">
+      <div class="accordion-header">10. Acceptance of Terms</div>
+      <div class="accordion-content">
+        <p>By registering or participating, you agree to all terms listed above. If you do not agree, please do not register or participate.</p>
+      </div>
+    </div>
+</section>
+      
+    <!-- Footer -->
+<footer class="bg-lightblue text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./assets/img/logo.png"
+              alt="Olute FC"
+              height="150"
+              class="mb-3"
+            />
+            <p>
+              Developing football talent and character since 2021. Olute FC is
+              committed to excellence in youth sports development.
+            </p>
+
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href="mailto:olutefc@gmail.com" class="mail"
+              ><i class="bi bi-envelope"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/AmazingFcAkute/posts/happy-blessed-week-from-olute-football-association-new-week-new-blessings-lwc-ak/1082596657199966/"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/auduboma/"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/posts/boma-audu-90302a90_happy-new-month-from-olute-football-association-activity-7246763778791337984--E4F"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+         <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-4">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="./Olute Football Club - Developing Future Stars.html#home"
+                  class="text-white text-decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./Olute Football Club - Developing Future Stars.html#about"
+                  class="text-white text-decoration-none"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./Olute Football Club - Developing Future Stars.html#programs"
+                  class="text-white text-decoration-none"
+                  >Programs</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./Olute Football Club - Developing Future Stars.html#news"
+                  class="text-white text-decoration-none"
+                  >News</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="./Olute Football Club - Developing Future Stars.html#registrationForm"
+                  class="text-white text-decoration-none"
+                  >Register</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-4">Contact Us</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i> 123 Football Way,
+                Olute City
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone me-2"></i> +234 812 345 6789
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-envelope me-2"></i> info@olute.org
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-clock me-2"></i> Mon-Fri: 9AM - 5PM
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="text-uppercase mb-4">Newsletter</h5>
+            <p>Subscribe to get updates on programs and events.</p>
+            <form action="email.js" method="post">
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  aria-label="Your Email"
+                />
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="my-4 bg-secondary" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">
+              © 2023 Olute Football Association (OFA). All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="mb-0">
+              <a
+                href="https://olute.org/#"
+                class="text-white text-decoration-none me-3"
+                >Privacy Policy</a
+              >
+              <a
+                href="https://olute.org/#"
+                class="text-white text-decoration-none"
+                >Terms of Service</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const track = document.getElementById("slidingTrack");
+        const text = "2025 OLUTEFC \u00A0\u00A0\u00A0 "; // Non-breaking spaces for spacing
+
+        // Duplicate the text to fill the container
+        const repeatCount = 20;
+        let fullText = "";
+        for (let i = 0; i < repeatCount; i++) {
+          fullText += text;
+        }
+
+        track.textContent = fullText;
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const headline = document.getElementById("heroHeadline");
+
+        // Dynamically update styles (optional, redundant if CSS already handles it)
+        headline.style.fontSize = "3.5rem";
+        headline.style.color = "#fff";
+        headline.style.textTransform = "uppercase";
+        headline.style.letterSpacing = "3px";
+        headline.style.textShadow = "3px 3px 12px rgba(0, 0, 0, 0.6)";
+      });
+    </script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/css/"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js"></script>
+    <!-- T&C JS -->
+     <script>
+    const headers = document.querySelectorAll('.accordion-header');
+
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        content.classList.toggle('show');
+      });
+    });
+  </script>
+  </body>
+</html>
